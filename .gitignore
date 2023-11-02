@@ -70,4 +70,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-.DS_Store
+*.DS_Store
+ProjectSettings/InputManager.asset
+ProjectSettings/InputManager.asset
+.gitignore
+ProjectSettings/InputManager.asset
+ProjectSettings/ShaderGraphSettings.asset
+ProjectSettings/InputManager.asset
