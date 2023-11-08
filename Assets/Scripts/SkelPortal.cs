@@ -15,7 +15,7 @@ public class SkelPortal : MonoBehaviour
         _period = _period - Time.deltaTime;
         if (_period <= 0.0f)
         {
-            _period = 1.0f;
+            _period = 2.0f;
             Instantiate(_iniSkeleton, _portalPoint.localPosition, _portalPoint.localRotation).SetActive(true);
             //_iniSkeleton.SetActive(true);
         }
