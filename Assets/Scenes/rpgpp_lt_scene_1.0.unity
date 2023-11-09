@@ -2387,13 +2387,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328767704}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9526432, z: -0, w: 0.30409038}
+  m_LocalRotation: {x: -0, y: 0.8511538, z: -0, w: 0.5249164}
   m_LocalPosition: {x: 67.28, y: 21.81, z: 64.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 144.593, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 116.675, z: 0}
 --- !u!114 &328767706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7667,9 +7667,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3136820629370392942, guid: 62dcba975a0bdfe47bef48ea43049412, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1004670120}
-    - targetCorrespondingSourceObject: {fileID: 3136820629370392942, guid: 62dcba975a0bdfe47bef48ea43049412, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1004670123}
     - targetCorrespondingSourceObject: {fileID: 3136820629370392942, guid: 62dcba975a0bdfe47bef48ea43049412, type: 3}
       insertIndex: -1
@@ -7680,33 +7677,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3136820629370392942, guid: 62dcba975a0bdfe47bef48ea43049412, type: 3}
   m_PrefabInstance: {fileID: 1004670118}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1004670120
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004670119}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 0
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1004670123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7743,6 +7713,7 @@ MonoBehaviour:
   _prize: {fileID: 0}
   _punishment: {fileID: 1801867042}
   _stockPoint: {fileID: 0}
+  rotateSpeed: 0
 --- !u!1001 &1024197818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8561,6 +8532,7 @@ MonoBehaviour:
   _prize: {fileID: 1872776950}
   _punishment: {fileID: 0}
   _stockPoint: {fileID: 914217132}
+  rotateSpeed: 2
 --- !u!1001 &1136028977
 PrefabInstance:
   m_ObjectHideFlags: 0
