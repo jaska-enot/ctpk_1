@@ -12,11 +12,7 @@ public class HeroActions : MonoBehaviour
     
     private int banana = 0;
     private int watermelon = 0;
-
-    private void Start()
-    {
-        Debug.Log("ХОДИ ТОЛЬКО ПО ДОРОЖКАМ!");
-    }
+    
 
 
     private void OnCollisionEnter(Collision other)

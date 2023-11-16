@@ -35,7 +35,7 @@ public class SimpleSkeletonActions : MonoBehaviour
                 Instantiate(_prize, _stockPoint.localPosition, _stockPoint.localRotation).SetActive(true);
 
             }
-        if (_prize == null)
+        if (_punishment != null)
             {
                 Instantiate(_punishment, transform.localPosition, transform.localRotation).SetActive(true);
 
